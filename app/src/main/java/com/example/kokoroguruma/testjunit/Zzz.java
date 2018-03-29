@@ -29,10 +29,8 @@ public class Zzz {
 
 	}
 
-/*
-	assertEquals(Zzz.Zzz("aaa"), "111");
-	assertEquals(Zzz.Zzz("bbb"), "222");
-	assertEquals(Zzz.Zzz("ccc"), "");
-*/
+	public void mZzz2() throws Exception {
+		throw new Exception("eee");
+	}
 
 }

@@ -52,4 +52,12 @@ public class ZzzTest {
 
 	}
 
+	// try-catchを使わない書き方。
+	// ただし、エラーの具体的な内容まではチェックできないので注意。
+	// throw new Exception("この部分で色々違いがある"); など。。。。
+	@Test(expected = Exception.class)
+	public void mZzz2() throws Exception {
+		zzz.mZzz2();
+	}
+
 }
